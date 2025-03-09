@@ -6,3 +6,9 @@ services:
     restart: always
     ports:
       - "5007:5000"
+  jotheeswaran:
+    image: "jotheeswaranjd7/22itl02-personal-api-docker"
+    container_name: jotheeswaranjd_container
+    restart: always
+    ports:
+      - "5008:5000"
